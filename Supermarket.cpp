@@ -51,7 +51,7 @@ void Shop :: menu()
             cout<<"\t Enter Password : ";
             cin>>password;
 
-            if( email == "sachin" && password == "sachn")
+            if( email == "sachin" && password == "sachin")
                 administrator();
             else 
                 cout<<" Invalid email or password ";
